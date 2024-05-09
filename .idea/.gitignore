@@ -1,0 +1,42 @@
+# 默认忽略的文件
+/shelf/
+/workspace.xml
+# 基于编辑器的 HTTP 客户端请求
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# 二进制编译产物
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.o
+*.a
+
+# 构建目录
+/build/
+/bin/
+
+# 临时文件
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# IDE和编辑器特定文件
+.idea/
+.vscode/
+*.iml
+*.log
+*.DS_Store
+
+# 包管理工具特定文件
+/go/pkg/
+**/vendor/
+
+# 测试输出
+coverage.out
+*.test
